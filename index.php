@@ -5,6 +5,8 @@
 		<title>Title of the document</title>
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
 		<script src="assets/js/myScript.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="assets/js/jQuery.js"></script>
 	</head>
 
 	<body>
@@ -31,8 +33,8 @@
 		<section id="demo">
 			<article>
 				<header>
-					<h2>Zoran Mamić objavio da Zdravko postaje novi igrač Dinama</h2>
-					<p>I ako je prije dva dana na konferenciji za medije objavio kako odlazi s funkcije izvršnog predsjednika Dinama, Zdravko Mamić vjerojatno neće postati samo najobičniji consigliere.
+					<h2 id="flip">Zoran Mamić objavio da Zdravko postaje novi igrač Dinama</h2>
+					<p id="panel">I ako je prije dva dana na konferenciji za medije objavio kako odlazi s funkcije izvršnog predsjednika Dinama, Zdravko Mamić vjerojatno neće postati samo najobičniji consigliere.
 
 Zdravkova ljepša polovica - njegov brat Zoran, s novinarima je jutros podijelio vijest kako će Zdravko ubuduće biti član Dinamove udarne momčadi, i to kao igrač od kojeg se puno očekuje.
 
@@ -45,6 +47,7 @@ Dodajmo još i to kako je Zoran Mamić otkrio da Zdravko vjerojatno neće nositi
 			</article>
 		</section>
 		<button type="button" onclick="myFunction()">Try it</button>
+		<p>If you click on me, I will disappear.</p>
 		<aside>
 		
 		</aside>
