@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Title of the document</title>
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
+		<script src="assets/js/myScript.js"></script>
 	</head>
 
 	<body>
@@ -21,13 +22,13 @@
 				?>
 			</ul>
 		</nav>
-		<section id="intro">
+		<section id="intro"">
 			<header>
 				<h2>Umjesto epiduralne Mamić će rodiljama vikati AJMOOO kako bi što lakše obavile porod</h2>
 			</header>
 			<p>Iz Petrove bolnice u Zagrebu stižu sjajne vijesti za sve buduće rodilje. Njima će na porodu od sada društvo praviti Zdravko Mamić. Radi se o programu ušteda u zdravstvu koje je novi ministar zdravlja Dario Nakić upravo predstavio. Donedavni izvršni dopredsjednik Dinama Zdravko Mamić dao je jučer ostavku na svoju funkciju u klubu, pa je slobodan za nove angažmane, a prvi će biti pilot projekt u Petrovoj bolnici gdje bi umjesto epiduralne injekcije, žene bile izložene mahnitom Mamićevom AJMOOOO kako bi što lakše i brže rodile.</p>
 		</section>
-		<section>
+		<section id="demo">
 			<article>
 				<header>
 					<h2>Zoran Mamić objavio da Zdravko postaje novi igrač Dinama</h2>
@@ -43,6 +44,7 @@ Dodajmo još i to kako je Zoran Mamić otkrio da Zdravko vjerojatno neće nositi
 				</header>
 			</article>
 		</section>
+		<button type="button" onclick="myFunction()">Try it</button>
 		<aside>
 		
 		</aside>
